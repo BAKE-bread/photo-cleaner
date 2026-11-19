@@ -1,0 +1,13 @@
+{
+  "min_side": 400,
+  "photo_threshold": 0.55,
+  "meme_threshold": 0.5,
+  "detail_threshold": 0,
+  "focus_reblur_threshold": 0.5,
+  "focus_sharpness_threshold": 25,
+  "pbdb_threshold": 0,
+  "sharpness_threshold": 0,
+  "sharpness_mid_threshold": 0,
+  "reblur_threshold": 1,
+  "blockiness_threshold": 1.7
+}

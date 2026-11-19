@@ -1,0 +1,46 @@
+# Only explicitly listed project roots belong to the repository. Local image
+# collections and current development/limitation documents stay on this PC.
+/*
+!/.gitignore
+!/.gitattributes
+!/pyproject.toml
+!/MANIFEST.in
+!/README.md
+!/requirements.txt
+!/run.py
+!/setup.bat
+!/start.bat
+!/fix_cuda.bat
+!/install_runtime.py
+!/photocleaner/
+!/defaults/
+!/help/
+!/tests/
+!/scripts/
+!/.github/
+
+# Keep exploratory scripts and annotated sample work out of public tests.
+/tests/*
+!/tests/unit/
+/defaults/*
+!/defaults/*.json
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+*.sqlite3*
+*.db
+*.partial
+*.log
+*.safetensors
+*.bin
+*.pt
+*.pth
+.env
+.env.*
+settings.json*
+**/.photocleaner/
+**/.jobs/
+

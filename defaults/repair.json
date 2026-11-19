@@ -1,0 +1,6 @@
+{
+  "_说明": "识别所有后缀与无后缀文件，仅生成副本，保留原件。",
+  "retain_tree": true,
+  "repair_all": false,
+  "max_pixels": 80000000
+}

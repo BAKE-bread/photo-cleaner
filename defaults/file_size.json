@@ -1,0 +1,4 @@
+{
+  "file_size_rules": "<400 KB OR >4 MB",
+  "retain_tree": true
+}

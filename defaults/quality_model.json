@@ -1,0 +1,22 @@
+{
+  "version": "detail-calibration-20261024",
+  "coefficients": [
+    -5.259551500752434,
+    2.539121009248654,
+    0.05,
+    2.4654782161740867
+  ],
+  "source_images": 96,
+  "synthetic_samples": 480,
+  "train_sources": 65,
+  "heldout_sources": 31,
+  "heldout_mae_points": 6.7161003118630695,
+  "by_radius": {
+    "0": 93.09313689695162,
+    "0.5": 88.84041451609404,
+    "1": 66.73032470087708,
+    "2": 21.56718065197857,
+    "4": 5.578776447732187
+  },
+  "meaning": "Relative detail scale calibrated on controlled blur, not a probability of photographic content or universal sharpness."
+}

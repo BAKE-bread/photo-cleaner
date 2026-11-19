@@ -1,0 +1,18 @@
+# Source packages contain code and runtime resources, never local collections.
+include README.md pyproject.toml requirements.txt run.py
+include setup.bat start.bat fix_cuda.bat install_runtime.py
+include .gitignore .gitattributes
+recursive-include photocleaner *.py
+recursive-include help *.md
+recursive-include defaults *.json
+# setuptools also discovers test*.py automatically. Prune those historical
+# scripts before adding the maintained, generated-data suite back explicitly.
+prune tests
+recursive-include tests/unit *.py
+recursive-include scripts *.py
+recursive-include .github *.yml
+prune models
+prune test-output
+prune .jobs
+prune .venv
+global-exclude *.py[cod] *.sqlite3* *.db *.safetensors *.bin
